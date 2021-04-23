@@ -1,0 +1,5 @@
+#import the heart disease patient data file using pandas, creating a header row
+#since file doesn't have column names
+import pandas as pnd
+header_row = ['age','sex','pain','BP','chol','fbs','ecg','maxhr','eiang','eist','slope','vessels','thal','diagnosis']
+heart = pnd.read_csv('C:\\M U K E S H\\T R A I N I N G\\PYTHON\\CODES\\Heart Disease data.txt', names=header_row)
